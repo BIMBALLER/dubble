@@ -19,14 +19,14 @@ body {
 .nav {
   display: flex;
   gap: 1.5rem;
+  background-color: #ff6600;
 }
 
-/* Menu toggle button */
 .menu-toggle {
   font-size: 1.8rem;
   cursor: pointer;
   display: none;
-  color: #0a84ff;
+  color: #000;
 }
 
 .logo {
