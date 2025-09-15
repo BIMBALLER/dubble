@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,6 @@ body {
   line-height: 1.6;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -68,7 +67,6 @@ body {
   cursor: pointer;
 }
 
-/* Hero */
 .hero {
   display: flex;
   align-items: center;
@@ -107,7 +105,6 @@ body {
   max-width: 100%;
 }
 
-/* Solutions */
 .solutions {
   padding: 4rem 5%;
 }
@@ -175,7 +172,6 @@ body {
   filter: grayscale(0%);
 }
 
-/* Features */
 .features {
   padding: 4rem 5%;
   text-align: center;
@@ -216,7 +212,6 @@ body {
   color: #ff6600;
 }
 
-/* Clients Section */
 .clients {
   padding: 4rem 5%;
   background: #f9f9f9;
@@ -265,7 +260,6 @@ body {
   margin-bottom: 0.5rem;
 }
 
-/* CTA */
 .cta {
   padding: 3rem 5%;
   background: #0d1b2a;
@@ -309,7 +303,6 @@ footer {
   text-decoration: underline;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
