@@ -16,14 +16,17 @@ body {
   margin: auto;
   padding: 1.5rem;
 }
-
-.header {
+.nav {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 0;
-  background-color: #fff;
-  width: 100%;
+  gap: 1.5rem;
+}
+
+/* Menu toggle button */
+.menu-toggle {
+  font-size: 1.8rem;
+  cursor: pointer;
+  display: none;
+  color: #0a84ff;
 }
 
 .logo {
@@ -192,5 +195,27 @@ body {
 
   .vertical-text {
     display: none;
+  }
+}
+@media (max-width: 768px) {
+  .nav {
+    display: none;
+    flex-direction: column;
+    background: white;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 200px;
+    padding: 1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+  }
+
+  .nav.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
   }
 }
