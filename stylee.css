@@ -75,7 +75,7 @@ body {
   position: absolute;
   left: -40px;
   top: 50%;
-  transform: rotate(-90deg) translateY(-50%);
+  transform: rotate(-180deg) translateY(-50%);
   font-weight: 600;
   color: #555;
   letter-spacing: 2px;
